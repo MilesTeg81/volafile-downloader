@@ -168,9 +168,10 @@ class Downloader():
 
             if not os.path.exists(download_directory_path):
                 os.makedirs(download_directory_path)
-
-            file_id_name = f["name"] + " - " + str(f["id"]) + f["extension"]
-
+            #quickanddirty edit to remove file-id. less safe, but reduces duplicates and bandwidth -miles
+            #file_id_name = f["name"] + " - " + str(f["id"]) + f["extension"]
+            file_id_name = f["name"] + f["extension"]
+            
             file_path = os.path.join(download_directory_path, file_id_name)
 
             file_index += 1

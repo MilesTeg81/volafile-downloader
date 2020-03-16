@@ -1,4 +1,10 @@
-# Volafile Downloader
+# VD -dirty edits
+
+This is a dirty edit/hack of the official VD.
+see official https://github.com/the-okn3/volafile-downloader
+
+# ----------------------
+Volafile Downloader 
 
 volafile.org files and chat downloader
 
